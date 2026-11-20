@@ -75,6 +75,7 @@ The project also seeks to explore potential clinical collaboration with **Baheya
 | Student Team | Ahmed Saber |
 | Student Team | Abdelrahman Hani |
 | Student Team | Abdullah Ahmed |
+| Student Team | Wedyan Megahed |
 
 *Elsewedy University of Technology — Faculty of Engineering Technologies, Capstone Project 2026/2027 (CET491).*
 
