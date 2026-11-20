@@ -20,7 +20,7 @@ For women who notice changes in their breasts, timely assessment matters. Howeve
 
 **TheraSight** is a non-contact breast thermal imaging system designed to support breast health assessment using infrared thermography and artificial intelligence. An infrared thermal camera will capture temperature patterns across the breast, which will be processed and analyzed using a Convolutional Neural Network (CNN) to classify images into **Normal** and **Abnormal** categories, based on the publicly available DMR-IR breast thermography dataset.
 
-To make the model's predictions more interpretable, TheraSight will incorporate **Grad-CAM** to generate visual heatmaps highlighting the image regions that influence each prediction. These visual explanations will allow doctors and researchers to inspect whether the model is focusing on relevant image regions, rather than treating its output as a black box.
+Every assessment will come with a confidence score and a visual explanation of what the model relied on, so doctors can inspect the reasoning behind each result instead of receiving a black-box answer.
 
 The planned prototype aims to integrate an infrared thermal camera with **Raspberry Pi-based embedded hardware** for camera integration and system operation, alongside a software interface for displaying thermal images, CNN predictions, and Grad-CAM visualizations. Model performance will be evaluated using **Sensitivity, Specificity, and AUC**, with patient-level data separation and confidence intervals to support a reliable assessment.
 
@@ -32,7 +32,7 @@ The project also seeks to explore potential clinical collaboration with **Baheya
 
 - **Access** — thermal imaging is non-contact and non-invasive, with no radiation, making assessment easier to reach.
 - **Waiting** — a fast, AI-assisted first look can help prioritize who needs further examination sooner.
-- **Trust** — Grad-CAM shows the reasoning behind every prediction, so doctors can check the model instead of blindly trusting it.
+- **Trust** — Every prediction comes with a visual explanation and a confidence score, so doctors can check the model instead of blindly trusting it.
 
 ## How it works
 
@@ -75,7 +75,6 @@ The project also seeks to explore potential clinical collaboration with **Baheya
 | Student Team | Ahmed Saber |
 | Student Team | Abdelrahman Hani |
 | Student Team | Abdullah Ahmed |
-| Student Team | Wedyan Megahed |
 
 *Elsewedy University of Technology — Faculty of Engineering Technologies, Capstone Project 2026/2027 (CET491).*
 
